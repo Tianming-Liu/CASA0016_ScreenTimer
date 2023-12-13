@@ -1,0 +1,13 @@
+# Config files #
+Code/mqttConfig.py
+
+# Executables #
+*.o
+*.out
+
+# Object files #
+tmp/
+
+# OS generated files #
+.DS_Store
+Thumbs.db
