@@ -7,6 +7,7 @@ Code/Rasp_Pi/mqttConfig.py
 
 # Object files #
 tmp/
+__pycache__/
 
 # OS generated files #
 .DS_Store
