@@ -1,5 +1,5 @@
 # Config files #
-Code/mqttConfig.py
+Code/Rasp_Pi/mqttConfig.py
 
 # Executables #
 *.o
