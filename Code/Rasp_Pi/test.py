@@ -74,15 +74,15 @@ def main():
                     current_time = time.time()
                     if current_time - last_update_time >= update_interval:
                         if computer_in_frame:
-                            total_duration_computer += int(current_time - start_time_computer)  # 将浮点数时间转换为整数秒
-                            start_time_computer = current_time  # 重置计时器
+                            total_duration_computer += int(current_time - start_time_computer)  # Make the time an integer
+                            start_time_computer = current_time  # Reset the timer
                         if phone_in_frame:
-                            total_duration_phone += int(current_time - start_time_phone)  # 将浮点数时间转换为整数秒
-                            start_time_phone = current_time  # 重置计时器
+                            total_duration_phone += int(current_time - start_time_phone)  # Make the time an integer
+                            start_time_phone = current_time  # Reset the timer
 
-                        # # 更新总屏幕使用时间
+                        # # Update total screen usage
                         # if computer_in_frame or phone_in_frame:
-                        #     total_duration_screen += int(current_time - last_update_time)  # 将浮点数时间转换为整数秒
+                        #     total_duration_screen += int(current_time - last_update_time)  # Make the time an integer
 
                         client.publish(topic_laptop, f"Total computer usage duration: {total_duration_computer} seconds")
                         client.publish(topic_phone, f"Total phone usage duration: {total_duration_phone} seconds")
@@ -100,61 +100,7 @@ def main():
 
         except Exception as e:
             print(f"An error occurred: {e}")
-            time.sleep(5)  # 等待5秒后重新尝试连接
-
-    # while cap.isOpened():
-    #     success, frame = cap.read()
-    #     if success:
-    #         results = model(frame)
-
-    #         # Reset the flags
-    #         computer_in_frame = False
-    #         phone_in_frame = False
-
-    #         for result in results:
-    #             if result.boxes:
-    #                 # Check if there is any screen
-    #                 for box in result.boxes:
-    #                     cls_index = int(box.cls)
-    #                     label = result.names[cls_index]
-
-    #                     if label == 'laptop':
-    #                         computer_in_frame = True
-    #                         if start_time_computer is None:
-    #                             start_time_computer = time.time()
-    #                     elif label == 'cell phone':
-    #                         phone_in_frame = True
-    #                         if start_time_phone is None:
-    #                             start_time_phone = time.time()
-
-    #         # Update screen usage and publish the time
-    #         current_time = time.time()
-    #         if current_time - last_update_time >= update_interval:
-    #             if computer_in_frame:
-    #                 total_duration_computer += int(current_time - start_time_computer)  # 将浮点数时间转换为整数秒
-    #                 start_time_computer = current_time  # 重置计时器
-    #             if phone_in_frame:
-    #                 total_duration_phone += int(current_time - start_time_phone)  # 将浮点数时间转换为整数秒
-    #                 start_time_phone = current_time  # 重置计时器
-
-    #             # # 更新总屏幕使用时间
-    #             # if computer_in_frame or phone_in_frame:
-    #             #     total_duration_screen += int(current_time - last_update_time)  # 将浮点数时间转换为整数秒
-
-    #             client.publish(topic_laptop, f"Total computer usage duration: {total_duration_computer} seconds")
-    #             client.publish(topic_phone, f"Total phone usage duration: {total_duration_phone} seconds")
-    #             # client.publish(topic_total_Screen_Usage, f"Total screen usage duration: {total_duration_screen} seconds")
-
-    #             last_update_time = current_time
-
-    #         if cv2.waitKey(1) & 0xFF == ord("q"):
-    #             break
-    #     else:
-    #         break
-
-    # cap.release()
-    # cv2.destroyAllWindows()
-    # client.loop_stop()
+            time.sleep(5)  # Retry after 5 seconds
 
 if __name__ == "__main__":
     main()
