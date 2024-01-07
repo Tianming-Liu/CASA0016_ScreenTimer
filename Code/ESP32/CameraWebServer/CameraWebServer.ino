@@ -118,14 +118,14 @@ void setup() {
 
     if (WiFi.status() == WL_CONNECTED) {
       Serial.println("WiFi connected");
-      break;  // 如果成功连接，跳出循环
+      break;  // If connected, break out of the loop
     } else {
       Serial.println("WiFi connection failed");
       if (i < numWiFiCredentials - 1) {
         Serial.println("Trying another WiFi credential");
       } else {
         Serial.println("All WiFi credentials failed. Please check your WiFi settings.");
-        return;  // 如果所有凭据都失败，退出setup函数
+        return;  // If all WiFi credentials failed, exit the program
       }
     }
   }
