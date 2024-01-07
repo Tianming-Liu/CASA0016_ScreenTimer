@@ -23,13 +23,13 @@ void loop() {
 }
 
 Motor motors[] = {
-    {false, 0, {8, 9, 10, 11}}, // 直接连接到Arduino的电机
-    {true, PCF8574_ADDRESS, {0, 1, 2, 3}}, // 连接到I/O扩展器的电机
+    {false, 0, {8, 9, 10, 11}}, // Connect the motor directly to Arduino
+    {true, PCF8574_ADDRESS, {0, 1, 2, 3}}, // Connect the motor to I/O Extender
     {true, PCF8574_ADDRESS, {4, 5, 6, 7}}
 };
 
 struct Motor {
-    bool useExtender;  // 是否使用I/O扩展器
-    uint8_t extenderAddress;  // I/O扩展器的地址
-    uint8_t pins[4];  // 直接连接到Arduino的引脚或在I/O扩展器上的引脚位置
+    bool useExtender;  // Use the I/O Extender or not
+    uint8_t extenderAddress;  // I/O Extender Address
+    uint8_t pins[4];  // Connect the motor to these pins
 };
