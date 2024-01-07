@@ -1,5 +1,7 @@
 # Config files #
 Code/Rasp_Pi/mqttConfig.py
+# Ignore all the files with "config" in their filenames in this Repo
+*Config*
 
 # Executables #
 *.o
