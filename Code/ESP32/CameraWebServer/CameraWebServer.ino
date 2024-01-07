@@ -29,13 +29,9 @@
 #include "camera_pins.h"
 
 // ===========================
-// Enter your WiFi credentials
+// You Need to Enter your WiFi credentials in the wifiConfig External Private File
 // ===========================
-const char* ssid     = "PLUSNET-104SW";
-const char* password = "3SquadronRE";
-const char* ssidList[] = {"PLUSNET-104SW","CE-Hub-Student"};
-const char* passwordList[] = {"3SquadronRE","casa-ce-gagarin-public-service"};
-const int numWiFiCredentials = 2;
+#include "wifiConfig.h"
 
 void startCameraServer();
 
