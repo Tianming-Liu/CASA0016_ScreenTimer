@@ -15,12 +15,12 @@ def convert_mov_to_gif(input_file, output_file, fps=5, scale_factor=0.5):
 
 if __name__ == "__main__":
     # 输入和输出文件路径
-    input_files = ["IMG_0128.MOV", "IMG_0129.MOV", "IMG_0130.MOV"]  # 你的MOV文件列表
-    output_files = ["output1.gif", "output2.gif", "output3.gif"]  # 对应的输出GIF文件名
+    input_files = ["./IMG_0264.MOV"]  # 你的MOV文件列表
+    output_files = ["output1.gif"]  # 对应的输出GIF文件名
     
 # 设置帧率和缩放因子
     target_fps = 5  # 你可以适当调整这个值
-    scale_factor = 0.25  # 设置缩放因子，可以根据需要调整
+    scale_factor = 0.15  # 设置缩放因子，可以根据需要调整
     
     # 批量转换
     for i in range(len(input_files)):
