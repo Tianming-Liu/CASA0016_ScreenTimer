@@ -31,7 +31,7 @@ _To minimize the size of our visual data collection device while ensuring essent
     </td>
     <td>
       <div align="center">
-        <img src="./Src/ESP32_CAM.jpg" alt="Image" width="200" style="transform: rotate(90deg);">
+        <img src="./Src/ESP32_CAM.jpg" alt="Image" width="300">
       </div>
     </td>
   </tr>
@@ -58,7 +58,7 @@ _In choosing components for our project, i want to ensure that my device remains
     </td>
     <td>
       <div align="center">
-        <img src="./Src/Lithium_Polymer_Battery.jpg" alt="Image" width="300">
+        <img src="./Src/Lithium_Polymer_Battery.jpg" alt="Image" width="400">
       </div>
     </td>
   </tr>
