@@ -9,6 +9,22 @@ In this project, I designed a **physical device** to **detect and record** the u
   <img src="./Src/reset_demo.gif" alt="Overall Photo of Website and Plant Monitor" width="500">
 </div>
 
+## Folder Structure
+
+```none
+Screen Timer Project
+├── Code (All the code for Arduino UNO, ESP32 and Rasberry Pi)
+│   ├── Arduino (Code tested on Arduino UNO R4 Wifi)
+│   │   ├── Final_Mqtt_MultiMotor (Integrated Code)
+│   │   │   ├── Final_Mqtt_MultiMotor.ino (Main Part)
+│   │   │   ├── wifiConfig.h (Create your own config file!!)
+│   │   ├── Hall_Effect_Sensor_Test (Integrated Code)
+│   │   │   ├── Final_Mqtt_MultiMotor.ino (Main Part)
+│   ├── Test (I save the sperate module script to test different function)
+│   │   │   ├── ConnectToWifi
+│   │   │   │   ├── ConnectToWifi.ino
+```
+
 ## Parts List
 The device consists of three components: the Video collection component, the data processing component, and the time display component.
 ### 1. Video Collection Component
@@ -66,7 +82,7 @@ _In choosing components for our project, i want to ensure that my device remains
 
 **1.3 Slide Switches With 3 Pin 2 Position**
 
-_The module includes a 3-pin 2-Position switch as the primary control for activating the screen detection device._
+_The module includes a 3-Pin 2-Position switch as the primary control for activating the screen detection device._
 
 <table>
   <tr>
@@ -90,22 +106,6 @@ _The module includes a 3-pin 2-Position switch as the primary control for activa
 </table>
 
 ### 1. Video Collection Component
-
-## Folder Structure
-
-```none
-Screen Timer Project
-├── Code (All the code for Arduino UNO, ESP32 and Rasberry Pi)
-│   ├── Arduino (Code tested on Arduino UNO R4 Wifi)
-│   │   ├── Final_Mqtt_MultiMotor (Integrated Code)
-│   │   │   ├── Final_Mqtt_MultiMotor.ino (Main Part)
-│   │   │   ├── wifiConfig.h (Create your own config file!!)
-│   │   ├── Hall_Effect_Sensor_Test (Integrated Code)
-│   │   │   ├── Final_Mqtt_MultiMotor.ino (Main Part)
-│   ├── Test (I save the sperate module script to test different function)
-│   │   │   ├── ConnectToWifi
-│   │   │   │   ├── ConnectToWifi.ino
-```
 
 ## Common Issues
 
