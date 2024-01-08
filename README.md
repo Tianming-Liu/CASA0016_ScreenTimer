@@ -6,7 +6,7 @@
 In this project, I designed a **physical device** to **detect and record** the usage time of various screens in daily life, such as the mobile phone and laptop. The primary goal is to **visually display** this data on an **interesting flip clock**.
 
 <div align=center>
-  <img src="./Src/reset_demo.gif" alt="Overall Photo of Website and Plant Monitor" width="500">
+  <img src="./Src/resetDemo.gif" alt="Overall Photo of Website and Plant Monitor" width="500">
 </div>
 
 ## Folder Structure
@@ -115,7 +115,7 @@ The enclosure I designed is installed in a pin-like manner, allowing for easy pl
   <tr>
     <td>
         <div align="center">
-            <img src="./Src/Video_Module_Enclosure.gif" alt="Image" width="250">
+            <img src="./Src/Video_Module_Enclosure.gif" alt="Image" width="400">
         </div>
     </td>
     <td>
