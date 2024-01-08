@@ -27,6 +27,28 @@ _To minimize the size of our visual data collection device while ensuring essent
   - _Seamless Image Capture_: Compact camera module ensures high-quality data acquisition.
   - _Effortless Connectivity_: Wireless network connection module facilitates easy and reliable data transmission.
 
+<table>
+  <tr>
+    <td>
+      <p><b>Microprocessor Selection:</b></p>
+      <ul>
+        <li><i>ESP32 Series</i>: Renowned for its efficiency, the ESP32 series microprocessor has been chosen for its ability to strike an optimal balance between a small form factor and robust performance.</li>
+      </ul>
+      <p><b>Key Benefits:</b></p>
+      <ul>
+        <li><i>Seamless Image Capture</i>: Compact camera module ensures high-quality data acquisition.</li>
+        <li><i>Effortless Connectivity</i>: Wireless network connection module facilitates easy and reliable data transmission.</li>
+      </ul>
+    </td>
+    <td>
+      <div align="center">
+        <img src="./Src/ESP32_CAM.jpg" alt="Image" width="200" style="transform: rotate(90deg);">
+      </div>
+    </td>
+  </tr>
+</table>
+
+
 **1.2 Lithium Polymer Battery**
 
 _In choosing components for our project, i want to ensure that my device remains portable while delivering robust performance._
