@@ -3,20 +3,27 @@
 ### _A Device for Screen Usage Detection and Data Visualization_
 
 
-In this project, I designed a **physical device** to **detect and record** the usage time of various screens in daily life. The primary goal is to **visually display** this data on an **interesting flip clock**.
+In this project, I designed a **physical device** to **detect and record** the usage time of various screens in daily life, such as the mobile phone and laptop. The primary goal is to **visually display** this data on an **interesting flip clock**.
 
 
 <center>
   <img src="./Src/reset_demo.gif" alt="Overall Photo of Website and Plant Monitor" width="400">
 </center>
 
-The device consists of three components: the Video collection component, the data processing component, and the time display component.
-
 ## Parts List
+The device consists of three components: the Video collection component, the data processing component, and the time display component.
 ### 1. Video Collection Component
 **1.1 FREENOVE ESP32-WROVER CAM Board**
 
-To minimize the size of our visual data collection device while ensuring essential functionality, we've integrated a compact camera module along with a wireless network connection module. For this purpose, we've selected the renowned and efficient ESP32 series microprocessor. This choice strikes an optimal balance between small form factor and robust performance, catering to our device's need for seamless image capture and effortless connectivity.
+_To minimize the size of our visual data collection device while ensuring essential functionality_
+
+- **Microprocessor Selection**:
+  - **ESP32 Series**: Renowned for its efficiency, the ESP32 series microprocessor has been chosen for its ability to strike an optimal balance between a small form factor and robust performance.
+
+- **Key Benefits**:
+  - _Seamless Image Capture_: Compact camera module ensures high-quality data acquisition.
+  - _Effortless Connectivity_: Wireless network connection module facilitates easy and reliable data transmission.
+
 
 <center>
   <img src="./Src/ESP32_CAM.jpg" alt="Image" width="300">
