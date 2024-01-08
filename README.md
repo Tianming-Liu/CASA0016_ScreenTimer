@@ -111,11 +111,11 @@ _I designed the enclosure for this component and print it out which can be attac
 
 The enclosure I designed is installed in a pin-like manner, allowing for easy placement of the battery and ESP32 inside the box. There are two small holes on the front of the box; the middle opening is for the camera, and the lower opening is for toggling the switch. Symbols are placed on both sides to indicate the current status of the device. The back of the box features a clip-like design, making it convenient to attach the entire data collection box to clothing or a lanyard.
 
-<table>
+<table align=""center>
   <tr>
     <td>
         <div align="center">
-            <img src="./Src/Video_Module_Enclosure.gif" alt="Image" width="300">
+            <img src="./Src/Video_Module_Enclosure.gif" alt="Image" width="250">
         </div>
     </td>
     <td>
