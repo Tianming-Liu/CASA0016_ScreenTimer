@@ -16,17 +16,6 @@ The device consists of three components: the Video collection component, the dat
 
 _To minimize the size of our visual data collection device while ensuring essential functionality._
 
-<div align=center>
-  <img src="./Src/ESP32_CAM.jpg" alt="Image" width="200 "style="transform: rotate(90deg);">
-</div>
-
-- **Microprocessor Selection**:
-  - _ESP32 Series_: Renowned for its efficiency, the ESP32 series microprocessor has been chosen for its ability to strike an optimal balance between a small form factor and robust performance.
-
-- **Key Benefits**:
-  - _Seamless Image Capture_: Compact camera module ensures high-quality data acquisition.
-  - _Effortless Connectivity_: Wireless network connection module facilitates easy and reliable data transmission.
-
 <table>
   <tr>
     <td>
@@ -53,17 +42,27 @@ _To minimize the size of our visual data collection device while ensuring essent
 
 _In choosing components for our project, i want to ensure that my device remains portable while delivering robust performance._
 
-<div align=center>
-  <img src="./Src/Lithium_Polymer_Battery.jpg" alt="Image" width="200">
-</div>
-
-- **Power Supply Selection**
-  - _Lithium Polymer batteries_ are known for their high energy density and flexible form factor. Unlike traditional rigid batteries, they can be made in various shapes and sizes, which allows for more versatile design options. Their chemistry offers a good balance between weight and energy output, making them popular in portable electronics.
-
-- **Key Benefits for the Project**
-  - _High Compatibility_: With a 3.7V nominal voltage, the Lithium Polymer battery aligns well with the ESP32's 3.3V operation.
-  - _Compact and Lightweight_: Dimensions of 34.5 x 56 x 10.6 mm and a weight of 40g make this battery an excellent choice for maintaining portability.
-  - _Efficient Energy Storage_: A capacity of 2000 mAh provides a reliable and long-lasting power source, suitable for extended device operation.
+<table>
+  <tr>
+    <td>
+      <p><b>Power Supply Selection:</b></p>
+      <ul>
+        <li><i>Lithium Polymer batteries</i>: are known for their high energy density and flexible form factor. Unlike traditional rigid batteries, they can be made in various shapes and sizes, which allows for more versatile design options. Their chemistry offers a good balance between weight and energy output, making them popular in portable electronics.</li>
+      </ul>
+      <p><b>Key Benefits:</b></p>
+      <ul>
+        <li><i>High Compatibility</i>: With a 3.7V nominal voltage, the Lithium Polymer battery aligns well with the ESP32's 3.3V operation.</li>
+        <li><i>Compact and Lightweight</i>: Dimensions of 34.5 x 56 x 10.6 mm and a weight of 40g make this battery an excellent choice for maintaining portability.</li>
+        <li><i>Efficient Energy Storage</i>: A capacity of 2000 mAh provides a reliable and long-lasting power source, suitable for extended device operation.</li>
+      </ul>
+    </td>
+    <td>
+      <div align="center">
+        <img src="./Src/Lithium_Polymer_Battery.jpg" alt="Image" width="200">
+      </div>
+    </td>
+  </tr>
+</table>
 
 **1.3 Slide Switches With 3 Pin 2 Position**
 
