@@ -13,7 +13,7 @@ In this project, I designed a **physical device** to **detect and record** the u
 
 ```none
 Screen Timer Project
-├── *Code* (All the code for Arduino UNO, ESP32 and Rasberry Pi)
+├── Code (All the code for Arduino UNO, ESP32 and Rasberry Pi)
 │   ├── Arduino (Code tested on Arduino UNO R4 Wifi)
 │   │   ├── Final_Mqtt_MultiMotor (Integrated Code)
 │   │   │   ├── Final_Mqtt_MultiMotor.ino (Main Part)
@@ -104,6 +104,14 @@ _The module includes a 3-Pin 2-Position switch as the primary control for activa
     </td>
   </tr>
 </table>
+
+**1.4 3D Enclosure**
+
+_I designed the enclosure for this component and print it out which can be attached to your clothes._
+
+<div align="center">
+    <img src="./Src/Video_Module_Enclosure.gif" alt="Image" width="300">
+</div>
 
 ### 1. Video Collection Component
 
