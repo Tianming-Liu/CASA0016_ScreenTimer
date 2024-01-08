@@ -6,7 +6,7 @@
 In this project, I designed a **physical device** to **detect and record** the usage time of various screens in daily life, such as the mobile phone and laptop. The primary goal is to **visually display** this data on an **interesting flip clock**.
 
 <div align=center>
-  <img src="./Src/reset_demo.gif" alt="Overall Photo of Website and Plant Monitor" width="400">
+  <img src="./Src/reset_demo.gif" alt="Overall Photo of Website and Plant Monitor" width="500">
 </div>
 
 ## Parts List
@@ -14,10 +14,10 @@ The device consists of three components: the Video collection component, the dat
 ### 1. Video Collection Component
 **1.1 FREENOVE ESP32-WROVER CAM Board**
 
-_To minimize the size of our visual data collection device while ensuring essential functionality_
+_To minimize the size of our visual data collection device while ensuring essential functionality._
 
 <div align=center>
-  <img src="./Src/ESP32_CAM.jpg" alt="Image" width="300"style="transform: rotate(90deg);">
+  <img src="./Src/ESP32_CAM.jpg" alt="Image" width="200 "style="transform: rotate(90deg);">
 </div>
 
 - **Microprocessor Selection**:
@@ -29,11 +29,10 @@ _To minimize the size of our visual data collection device while ensuring essent
 
 **1.2 Lithium Polymer Battery**
 
-_In choosing components for our project, i want to ensure that my device remains portable while delivering robust performance.
-_
+_In choosing components for our project, i want to ensure that my device remains portable while delivering robust performance._
 
 <div align=center>
-  <img src="./Src/Lithium_Polymer_Battery.jpg" alt="Image" width="300">
+  <img src="./Src/Lithium_Polymer_Battery.jpg" alt="Image" width="200">
 </div>
 
 - **Power Supply Selection**
