@@ -1,7 +1,10 @@
-# CASA0016_ScreenTimer
-CASA0016 Course Work -- A Device for Screen Detection and Usage Analysis
+# *ScreenTimer*
+## **CASA0016 Course Work** 
+### _A Device for Screen Usage Detection and Data Visualization_
 
-In this project, I designed a physical device to detect and record the usage time of various screens in daily life, and ultimately display it on an interesting flip clock.
+
+In this project, I designed a **physical device** to **detect and record** the usage time of various screens in daily life. The primary goal is to **visually display** this data on an **interesting flip clock**.
+
 
 <center>
   <img src="./Src/reset_demo.gif" alt="Overall Photo of Website and Plant Monitor" width="400">
