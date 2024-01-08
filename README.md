@@ -5,10 +5,9 @@
 
 In this project, I designed a **physical device** to **detect and record** the usage time of various screens in daily life, such as the mobile phone and laptop. The primary goal is to **visually display** this data on an **interesting flip clock**.
 
-
-<center>
+<div align=center>
   <img src="./Src/reset_demo.gif" alt="Overall Photo of Website and Plant Monitor" width="400">
-</center>
+</div>
 
 ## Parts List
 The device consists of three components: the Video collection component, the data processing component, and the time display component.
@@ -24,9 +23,9 @@ _To minimize the size of our visual data collection device while ensuring essent
   - _Seamless Image Capture_: Compact camera module ensures high-quality data acquisition.
   - _Effortless Connectivity_: Wireless network connection module facilitates easy and reliable data transmission.
 
-<center>
+<div align=center>
   <img src="./Src/ESP32_CAM.jpg" alt="Image" width="300">
-</center>
+</div>
 
 **1.2 Lithium Polymer Battery**
 
@@ -47,9 +46,9 @@ _
 
 **1.3 Slide Switches With 3 Pin 2 Position**
 
-<center>
+<div align=center>
   <img src="./Src/slide_switch.jpg" alt="Image" width="300">
-</center>
+</div>
 
 ### 1. Video Collection Component
 
