@@ -109,9 +109,13 @@ _The module includes a 3-Pin 2-Position switch as the primary control for activa
 
 _I designed the enclosure for this component and print it out which can be attached to your clothes._
 
+The enclosure I designed is installed in a pin-like manner, allowing for easy placement of the battery and ESP32 inside the box. There are two small holes on the front of the box; the middle opening is for the camera, and the lower opening is for toggling the switch. Symbols are placed on both sides to indicate the current status of the device. The back of the box features a clip-like design, making it convenient to attach the entire data collection box to clothing or a lanyard.
+
 <div align="center">
     <img src="./Src/Video_Module_Enclosure.gif" alt="Image" width="300">
 </div>
+
+You can download the 3D model in this [link](https://github.com/Tianming-Liu/CASA0016_ScreenTimer/blob/main/Enclosure/video_collection_component_enclosure.3dm).
 
 ### 1. Video Collection Component
 
