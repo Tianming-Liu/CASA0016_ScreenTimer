@@ -41,9 +41,9 @@ _
   - _Compact and Lightweight_: Dimensions of 34.5 x 56 x 10.6 mm and a weight of 40g make this battery an excellent choice for maintaining portability.
   - _Efficient Energy Storage_: A capacity of 2000 mAh provides a reliable and long-lasting power source, suitable for extended device operation.
 
-<center>
+<div align=center>
   <img src="./Src/Lithium_Polymer_Battery.jpg" alt="Image" width="300">
-</center>
+</div>
 
 **1.3 Slide Switches With 3 Pin 2 Position**
 
