@@ -66,9 +66,28 @@ _In choosing components for our project, i want to ensure that my device remains
 
 **1.3 Slide Switches With 3 Pin 2 Position**
 
-<div align=center>
-  <img src="./Src/slide_switch.jpg" alt="Image" width="300">
-</div>
+_The module includes a 3-pin 2-Position switch as the primary control for activating the screen detection device._
+
+<table>
+  <tr>
+    <td>
+      <p><b>Switch Type:</b></p>
+      <ul>
+        <li><i>Slide Switches With 3 Pin 2 Position</i> are known for its reliability and versatility, offering a clear on/off state without ambiguity. Its 3-pin configuration allows for straightforward integration into the circuit, simplifying the design and assembly process.</li>
+      </ul>
+      <p><b>Activation Process:</b></p>
+      <ul>
+        <li>When switched on, the device powers up and initiates the video data collection from the integrated camera.</li>
+        <li>The captured video data is then transmitted to the data processing module for analysis.</li>
+      </ul>
+    </td>
+    <td>
+      <div align="center">
+        <img src="./Src/slide_switch.jpg" alt="Image" width="300">
+      </div>
+    </td>
+  </tr>
+</table>
 
 ### 1. Video Collection Component
 
