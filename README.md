@@ -58,7 +58,7 @@ _In choosing components for our project, i want to ensure that my device remains
     </td>
     <td>
       <div align="center">
-        <img src="./Src/Lithium_Polymer_Battery.jpg" alt="Image" width="200">
+        <img src="./Src/Lithium_Polymer_Battery.jpg" alt="Image" width="300">
       </div>
     </td>
   </tr>
