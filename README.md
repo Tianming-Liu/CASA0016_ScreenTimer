@@ -18,11 +18,31 @@ Screen Timer Project
 │   │   ├── Final_Mqtt_MultiMotor (Integrated Code)
 │   │   │   ├── Final_Mqtt_MultiMotor.ino (Main Part)
 │   │   │   ├── wifiConfig.h (Create your own config file!!)
-│   │   ├── Hall_Effect_Sensor_Test (Integrated Code)
-│   │   │   ├── Final_Mqtt_MultiMotor.ino (Main Part)
-│   ├── Test (I save the sperate module script to test different function)
-│   │   │   ├── ConnectToWifi
-│   │   │   │   ├── ConnectToWifi.ino
+│   │   ├── Hall_Effect_Sensor_Test
+│   │   │   ├── Hall_Effect_Sensor_Test.ino
+│   │   ├── IO_Extender_Motor
+│   │   │   ├── IO_Extender_Motor.ino
+│   │   ├── LDR_Test
+│   │   │   ├── LDR_Test.ino
+│   │   ├── WiFiS3_test
+│   │   │   ├── WiFiS3_test.ino
+│   ├── ESP32 (Code tested on ESP32 With CAM Module)
+│   │   ├── app_httpd.cpp
+│   │   ├── camera_index.h
+│   │   ├── camera_pins.h
+│   │   ├── CameraWebServer.ino
+│   │   ├── wifiConfig.h
+│   ├── Rasp_Pi (Code tested on Rasp Pi 4B)
+│   │   ├── mqttConfig.py (Create your own config file!!)
+│   │   ├── test.py (Main Part)
+│   │   ├── yolov8n.pt (Pretrained Model ckpt file)
+├── Enclosure
+│   ├── video_collection_component_enclosure.3dm
+├── Src (Image and gif for README)
+│   ├── ...
+├── .gitignore
+├── README.md (Intro)
+
 ```
 
 ## Parts List
@@ -126,86 +146,27 @@ The enclosure I designed is installed in a pin-like manner, allowing for easy pl
   </tr>
 </table>
 
-You can download the 3D model in this [link](https://github.com/Tianming-Liu/CASA0016_ScreenTimer/blob/main/Enclosure/video_collection_component_enclosure.3dm).
+You can download the 3d model in this [link](https://github.com/Tianming-Liu/CASA0016_ScreenTimer/blob/main/Enclosure/video_collection_component_enclosure.3dm).
 
-### 1. Video Collection Component
-
-## Common Issues
-
-**1. No moisture value**
-
-<center>
-  <img src="./Links/issue01.png" alt="DHT22 Temp-Humidity Sensor" width="400">
-</center>
+### 2. Data Processing Component
 
 
-  This mostly result from a extremly large resistance between two nails. 
-    
-For example, when you test the code at first, you may hold the two respectively with your hands, the voltage read by the analog pin is too small to return.
-
-**2. Rasberry Pi SSH Connection**
-
-The format for ssh connection is 
-
-<u>"ssh {rasp pi username}@{rasp pi hostname}.local"</u>
-
-The password is set up behind the username.
 
 ## Current Output
-
-- Data In CE-Lab MQTT Broker From My Own Topic
-<center>
-  <img src="./Links/output_mqtt.png" alt="DHT22 Temp-Humidity Sensor" width="400">
-</center>
-
-- Data In InfluxDB Dashboard
-<center>
-  <img src="./Links/InfluxDB_Output.png" alt="DHT22 Temp-Humidity Sensor" width="400">
-</center>
-
-- Data Visualization in Grafana Dashboard
-
-<center>
-  <img src="./Links/Grafana_Output.png" alt="DHT22 Temp-Humidity Sensor" width="400">
-</center>
 
 
 ## Future
 
-### 1. Build Website Interaction
+### 1. Enhancing Processing Efficiency and Accuracy
+Adopt models suitable for low-power devices, like TinyML, to improve the speed and accuracy of data processing on small devices like the Raspberry Pi.
+### 2. System Optimization and Integration
+Simplify system configuration by using more powerful computing devices, and enhance device integration and ease of deployment through 3D Enclosure design.
+### 3. Data Transmission and Expansion of Application Scenarios
+Optimize data transmission processes to expand application scenarios, making the device an efficient urban sensing tool for researchers and general users.
+## Acknowledgements
 
-Set up web connection to mqtt and interactive with a led light to remind people around the plant through sending message to a newly built topic.
+This project makes use of open-source components. We acknowledge and are grateful to these developers for their contributions.
 
-Collect and visualize the data on the same website. Analyse the former status of plant, compute the last time someone watering plant. 
+- **Splitflap Display by Scott Bezek**: This project utilizes components from the Splitflap display designed by Scott Bezek. The original project can be found at [Splitflap](https://github.com/scottbez1/splitflap#design-overview). 
+- **Ultralytics YOLO**: Our project incorporates models from Ultralytics YOLO, an efficient and versatile object detection system. More information can be found at their GitHub repository [Ultralytics](https://github.com/ultralytics/ultralytics).
 
-<center>
-  <img src="./Links/Web Interaction.png" alt="DHT22 Temp-Humidity Sensor" width="300">
-</center>
-
-### 2. Change the Watering Method with automatic control
-
-Switching from top watering to bottom watering and adding an automatic control module that allows people to operate it from the website above. 
-
-Bottom watering can prevent the topsoil from becoming too compact, allowing water to flow smoothly and avoiding waterlogging, which can attract many mosquitoes.
-
-<center>
-  <img src="./Links/Watering Method.jpeg" alt="Bottom Watering" width="300">
-</center>
-
-### 3. Parametric model for 3d Enclosure
-
-Estabilish a parameteric model that fits various pot sizes. With combination of 3D printing tech, we can finish the 3D enclosure models quickly.
-
-The general workflow for the parametric model:
-
-- Input: Port Shape, Port Size, Depth of the Gap
-
-- Output: STL Format Model (For 3D Modelling)
-
-A simple demo in Rhino.
-
-<center>
-  <img src="./Links/3D Enclosure.gif" alt="DHT22 Temp-Humidity Sensor" width="300">
-</center>
-
-## Lisence
