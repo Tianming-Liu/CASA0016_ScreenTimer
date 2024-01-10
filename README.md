@@ -6,11 +6,7 @@
 In this project, I designed a **physical device** to **detect and record** the usage time of various screens in daily life, such as the mobile phone and laptop. The primary goal is to **visually display** this data on an **interesting flip clock**.
 
 <div align=center>
-  <img src="./Src/overall_project.jpg" alt="Overall Photo of Website and Plant Monitor" width="700">
-</div>
-
-<div align=center>
-  Overall Photo of my project
+  <img src="./Src/overall_project.jpg" alt="Overall Photo of Website and Plant Monitor" width="600">
 </div>
 
 <div align=center>
