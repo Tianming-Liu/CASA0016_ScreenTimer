@@ -175,6 +175,8 @@ _The Raspberry Pi 4B is mainly selected for its robust computational capabilitie
 
 In this module, I control the component through the Arduino UNO R4 Wifi microprocessor. The important parts include the LDR sensor, LCD display, and a flip clock made by referencing an open-source project(Bezanson, 2019). Among these, the flip clock serves as the main activator, and I aim to express the behavior of using digital products in a de-electrified manner. The component responds to both of the screen usage time and lighting environment of the user.
 
+<div align="center">
+
 | Part | Image | Part | Image |
 |------|-------|------|-------|
 | Arduino UNO R4 Wifi | <img src="./Src/arduino_uno_r4_wifi.jpg" width="100px"> | PCF8574 IO Expansion Board | <img src="./Src/PCF8574_IO_Expansion_Board.jpg" width="100px"> |
@@ -182,6 +184,8 @@ In this module, I control the component through the Arduino UNO R4 Wifi micropro
 | Hall Effect Sensor | <img src="./Src/Hall_Effect_Sensor.jpg" width="100px"> | Neodymium Magnets| <img src="./Src/4 mm x 3 mm Neodymium Magnets.jpg" width="100px"> |
 | LDR Sensor | <img src="./Src/LDR_Senror.jpg" width="100px"> | LCD Screen | <img src="./Src/LCD_Screen.jpg" width="100px"> |
 | Lego Bricks | <img src="./Src/lego_bricks.jpg" width="100px"> | [LaserCut Enclosure](https://github.com/Tianming-Liu/CASA0016_ScreenTimer/blob/main/Enclosure/laserCut.dxf) | <img src="./Src/laserCut.png" width="100px"> |
+
+</div>
 
 
 ## Results
