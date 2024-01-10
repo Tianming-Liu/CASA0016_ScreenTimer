@@ -9,10 +9,6 @@ In this project, I designed a **physical device** to **detect and record** the u
   <img src="./Src/overall_project.jpg" alt="Overall Photo of Website and Plant Monitor" width="600">
 </div>
 
-<div align=center>
-  <img src="./Src/resetDemo.gif" alt="Overall Photo of Website and Plant Monitor" width="500">
-</div>
-
 ## Folder Structure
 
 ```none
@@ -179,12 +175,12 @@ _The Raspberry Pi 4B is mainly selected for its robust computational capabilitie
 In this module, I control the component through the Arduino UNO R4 Wifi microprocessor. The important parts include the LDR sensor, LCD display, and a flip clock made by referencing an open-source project(Bezanson, 2019). Among these, the flip clock serves as the main activator, and I aim to express the behavior of using digital products in a de-electrified manner. The component responds to both of the screen usage time and lighting environment of the user.
 
 | Part | Image | Part | Image |
-|--------|--------|--------|--------|
-| Arduino UNO R4 Wifi | ![Image1](./Src/arduino_uno_r4_wifi.jpg) | PCF8574 IO Expansion Board | ![image2](./Src/PCF8574_IO_Expansion_Board.jpg) |
-| Uln2003 Motor Driver Board | ![image3](Src/Uln2003_Motor_Driver_Board.jpg) | Stepper Motor 28BYJ-48 | ![image4](Src/Stepper_Motor_28BYJ-48.jpg) |
-| Hall Effect Sensor | ![image5](./Src/Hall_Effect_Sensor.jpg) | LCD Screen | ![image6](./Src/LCD_Screen.jpg) |
-| 文字内容 | ![image7](./Src/LDR_Senror.jpg) | LCD Screen | ![image8](Src/LCD_Screen.jpg) |
-| Lego Bricks | ![image7](Src/lego_bricks.jpg) | LaserCut Enclosure | ![image8](Src/laserCut.png) |
+|------|-------|------|-------|
+| Arduino UNO R4 Wifi | <img src="./Src/arduino_uno_r4_wifi.jpg" width="100px"> | PCF8574 IO Expansion Board | <img src="./Src/PCF8574_IO_Expansion_Board.jpg" width="100px"> |
+| Uln2003 Motor Driver Board | <img src="./Src/Uln2003_Motor_Driver_Board.jpg" width="100px"> | Stepper Motor 28BYJ-48 | <img src="./Src/Stepper_Motor_28BYJ-48.jpg" width="100px"> |
+| Hall Effect Sensor | <img src="./Src/Hall_Effect_Sensor.jpg" width="100px"> | Neodymium Magnets| <img src="./Src/4 mm x 3 mm Neodymium Magnets.jpg" width="100px"> |
+| LDR Sensor | <img src="./Src/LDR_Senror.jpg" width="100px"> | LCD Screen | <img src="./Src/LCD_Screen.jpg" width="100px"> |
+| Lego Bricks | <img src="./Src/lego_bricks.jpg" width="100px"> | LaserCut Enclosure | <img src="./Src/laserCut.png" width="100px"> |
 
 
 ## Results
@@ -198,6 +194,13 @@ Finally, the project achieved the process of collecting video streams using wear
 <div align="center">
   <img src="./Src/Flip_Clock_Result.jpg" alt="Image" width="300">
 </div>
+
+The following gif shows the process of motor resetting after turnning on the device.
+
+<div align=center>
+  <img src="./Src/resetDemo.gif" alt="Overall Photo of Website and Plant Monitor" width="300">
+</div>
+
 
 ## Future
 
