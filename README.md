@@ -189,11 +189,12 @@ Finally, the project achieved the process of collecting video streams using wear
 
 ## Future
 
-_1. Enhancing Processing Efficiency and Accuracy_
+- _Enhancing Processing Efficiency and Accuracy_
 Adopt models suitable for low-power devices, like TinyML, to improve the speed and accuracy of data processing on small devices like the Raspberry Pi.
-_2. System Optimization and Integration_
+
+- _System Optimization and Integration_
 Simplify system configuration by using more powerful computing devices, and enhance device integration and ease of deployment through 3D Enclosure design.
-_3. Data Transmission and Expansion of Application Scenarios_
+- _Data Transmission and Expansion of Application Scenarios_
 Optimize data transmission processes to expand application scenarios, making the device an efficient urban sensing tool for researchers and general users.
 ## Acknowledgements
 
