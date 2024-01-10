@@ -189,17 +189,17 @@ In this module, I control the component through the Arduino UNO R4 Wifi micropro
 Finally, the project achieved the process of collecting video streams using wearable cameras, processing video data on a Raspberry Pi and outputting screen usage time data, followed by displaying various screen usage times through a flip clock. Additionally, in focusing on screen usage behavior, the project also considered the quality assessment of the screen usage environment.
 
 <div align="center">
-  <img src="./Src/Screen_Display.jpg" alt="Image" width="300">
+  <img src="./Src/Screen_Display.jpg" alt="Image" width="400">
 </div>
 
 <div align="center">
-  <img src="./Src/Flip_Clock_Result.jpg" alt="Image" width="300">
+  <img src="./Src/Flip_Clock_Result.jpg" alt="Image" width="400">
 </div>
 
 The following gif shows the process of motor resetting after turnning on the device. The motor will rotate the clock panels to "0" respectively and then start to connect the MQTT so as to display the real time screen usage duration.
 
 <div align=center>
-  <img src="./Src/resetDemo.gif" alt="Overall Photo of Website and Plant Monitor" width="300">
+  <img src="./Src/resetDemo.gif" alt="Overall Photo of Website and Plant Monitor" width="400">
 </div>
 
 
