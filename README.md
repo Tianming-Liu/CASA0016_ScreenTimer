@@ -165,7 +165,7 @@ _The Raspberry Pi 4B is mainly selected for its robust computational capabilitie
     </td>
     <td>
       <div align="center">
-        <img src="./Src/23661-raspberry-pi-5.jpg" alt="Image" width="300">
+        <img src="./Src/23551-raspberry-pi-5.jpg" alt="Image" width="300">
       </div>
     </td>
   </tr>
