@@ -150,18 +150,45 @@ You can download the 3d model in this [link](https://github.com/Tianming-Liu/CAS
 
 ### 2. Data Processing Component
 
+<table>
+  <tr>
+    <td>
+      <p><b>Switch Type:</b></p>
+      <ul>
+        <li><i>Slide Switches With 3 Pin 2 Position</i> are known for its reliability and versatility, offering a clear on/off state without ambiguity. Its 3-pin configuration allows for straightforward integration into the circuit, simplifying the design and assembly process.</li>
+      </ul>
+      <p><b>Activation Process:</b></p>
+      <ul>
+        <li>When switched on, the device powers up and initiates the video data collection from the integrated camera.</li>
+        <li>The captured video data is then transmitted to the data processing module for analysis.</li>
+      </ul>
+    </td>
+    <td>
+      <div align="center">
+        <img src="./Src/slide_switch.jpg" alt="Image" width="300">
+      </div>
+    </td>
+  </tr>
+</table>
 
 
-## Current Output
+## Results
 
+<div align="center">
+  <img src="./Src/Screen_Display.jpg" alt="Image" width="300">
+</div>
+
+<div align="center">
+  <img src="./Src/Flip_Clock_Result.jpg" alt="Image" width="300">
+</div>
 
 ## Future
 
-### 1. Enhancing Processing Efficiency and Accuracy
+_1. Enhancing Processing Efficiency and Accuracy_
 Adopt models suitable for low-power devices, like TinyML, to improve the speed and accuracy of data processing on small devices like the Raspberry Pi.
-### 2. System Optimization and Integration
+_2. System Optimization and Integration_
 Simplify system configuration by using more powerful computing devices, and enhance device integration and ease of deployment through 3D Enclosure design.
-### 3. Data Transmission and Expansion of Application Scenarios
+_3. Data Transmission and Expansion of Application Scenarios_
 Optimize data transmission processes to expand application scenarios, making the device an efficient urban sensing tool for researchers and general users.
 ## Acknowledgements
 
