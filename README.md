@@ -37,7 +37,8 @@ Screen Timer Project
 │   │   ├── test.py (Main Part)
 │   │   ├── yolov8n.pt (Pretrained Model ckpt file)
 ├── Enclosure
-│   ├── video_collection_component_enclosure.3dm
+│   ├── video_collection_component_enclosure.3dm (File for 3d printing)
+│   ├── Enclosure/laserCut.dxf (File for Laser Cutting)
 ├── Src (Image and gif for README)
 │   ├── ...
 ├── .gitignore
@@ -180,7 +181,7 @@ In this module, I control the component through the Arduino UNO R4 Wifi micropro
 | Uln2003 Motor Driver Board | <img src="./Src/Uln2003_Motor_Driver_Board.jpg" width="100px"> | Stepper Motor 28BYJ-48 | <img src="./Src/Stepper_Motor_28BYJ-48.jpg" width="100px"> |
 | Hall Effect Sensor | <img src="./Src/Hall_Effect_Sensor.jpg" width="100px"> | Neodymium Magnets| <img src="./Src/4 mm x 3 mm Neodymium Magnets.jpg" width="100px"> |
 | LDR Sensor | <img src="./Src/LDR_Senror.jpg" width="100px"> | LCD Screen | <img src="./Src/LCD_Screen.jpg" width="100px"> |
-| Lego Bricks | <img src="./Src/lego_bricks.jpg" width="100px"> | LaserCut Enclosure | <img src="./Src/laserCut.png" width="100px"> |
+| Lego Bricks | <img src="./Src/lego_bricks.jpg" width="100px"> | [LaserCut Enclosure](https://github.com/Tianming-Liu/CASA0016_ScreenTimer/blob/main/Enclosure/laserCut.dxf) | <img src="./Src/laserCut.png" width="100px"> |
 
 
 ## Results
