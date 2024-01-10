@@ -154,22 +154,21 @@ You can download the 3d model in this [link](https://github.com/Tianming-Liu/CAS
 
 ### 2. Data Processing Component
 
+_The Raspberry Pi 4B is mainly selected for its robust computational capabilities, essential for running lightweight deep learning models._
+
 <table>
   <tr>
     <td>
-      <p><b>Switch Type:</b></p>
+      <p><b>Key Advantages: </b></p>
       <ul>
-        <li><i>Slide Switches With 3 Pin 2 Position</i> are known for its reliability and versatility, offering a clear on/off state without ambiguity. Its 3-pin configuration allows for straightforward integration into the circuit, simplifying the design and assembly process.</li>
-      </ul>
-      <p><b>Activation Process:</b></p>
-      <ul>
-        <li>When switched on, the device powers up and initiates the video data collection from the integrated camera.</li>
-        <li>The captured video data is then transmitted to the data processing module for analysis.</li>
+        <li>Efficient Deep Learning Processing: Its powerful processor and sufficient RAM enable efficient execution of deep learning algorithms, crucial for real-time data processing;</li>
+        <li>Reliable Data Transmission: Offers reliable and fast data transmission capabilities, ensuring seamless integration with other components of the system; </li>
+        <li>Versatile and Scalable: The Raspberry Pi 4B’s versatility makes it suitable for various applications, and its scalability allows for future enhancements and upgrades.</li>
       </ul>
     </td>
     <td>
       <div align="center">
-        <img src="./Src/slide_switch.jpg" alt="Image" width="300">
+        <img src="./Src/23661-raspberry-pi-5.jpg" alt="Image" width="300">
       </div>
     </td>
   </tr>
@@ -177,6 +176,8 @@ You can download the 3d model in this [link](https://github.com/Tianming-Liu/CAS
 
 
 ## Results
+
+Finally, the project achieved the process of collecting video streams using wearable cameras, processing video data on a Raspberry Pi and outputting screen usage time data, followed by displaying various screen usage times through a flip clock. Additionally, in focusing on screen usage behavior, the project also considered the quality assessment of the screen usage environment.
 
 <div align="center">
   <img src="./Src/Screen_Display.jpg" alt="Image" width="300">
