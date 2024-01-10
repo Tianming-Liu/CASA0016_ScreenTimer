@@ -174,6 +174,18 @@ _The Raspberry Pi 4B is mainly selected for its robust computational capabilitie
   </tr>
 </table>
 
+### 3. Data Visualization Component
+
+In this module, I control the component through the Arduino UNO R4 Wifi microprocessor. The important parts include the LDR sensor, LCD display, and a flip clock made by referencing an open-source project(Bezanson, 2019). Among these, the flip clock serves as the main activator, and I aim to express the behavior of using digital products in a de-electrified manner. The component responds to both of the screen usage time and lighting environment of the user.
+
+| Part | Image | Part | Image |
+|--------|--------|--------|--------|
+| Arduino UNO R4 Wifi | ![Image1](./Src/arduino_uno_r4_wifi.jpg) | PCF8574 IO Expansion Board | ![image2](./Src/PCF8574_IO_Expansion_Board.jpg) |
+| Uln2003 Motor Driver Board | ![image3](Src/Uln2003_Motor_Driver_Board.jpg) | Stepper Motor 28BYJ-48 | ![image4](Src/Stepper_Motor_28BYJ-48.jpg) |
+| Hall Effect Sensor | ![image5](./Src/Hall_Effect_Sensor.jpg) | LCD Screen | ![image6](./Src/LCD_Screen.jpg) |
+| 文字内容 | ![image7](./Src/LDR_Senror.jpg) | LCD Screen | ![image8](Src/LCD_Screen.jpg) |
+| Lego Bricks | ![image7](Src/lego_bricks.jpg) | LaserCut Enclosure | ![image8](Src/laserCut.png) |
+
 
 ## Results
 
